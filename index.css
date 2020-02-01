@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: rgb(92, 252, 198);
+}
+
+.logo {
+    background-color: rgb(92, 252, 198);
+    text-align: left;
+}
+
+.menu {
+    display: inline;
+    width: 60%;
+    margin-left: 20%;
+    left: 40%;
+}
+
+.boton {
+    margin-top: 0%;
+    padding: 3% 4% 0% 4%;
+    border: 1px solid aquamarine;
+    color: white;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.direccion {
+    background-color: rgb(92, 252, 198);
+    width: 90%;
+    padding: 32px 64px;
+    margin: auto;
+}
