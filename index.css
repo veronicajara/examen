@@ -1,7 +1,3 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
 
 header {
     background-color: rgb(92, 252, 198);
@@ -33,7 +29,7 @@ header {
 
 .banner {
     width: 100%;
-    background-color: aquamarine;
+    background-color: rgb 92, 252, 198;
     height: 500px;
 }
 
@@ -42,4 +38,102 @@ header {
     width: 90%;
     padding: 32px 64px;
     margin: auto;
+}
+
+.derecha {
+    top: 40px;
+    text-align: right;
+    color: white;
+    font-size: 150%;
+}
+
+.centro {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+.social {
+    float: center;
+    display: inline-flex;
+    width: 20px;
+    top: 40px;
+    margin-left: 80%;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
+.icono2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.cont1 {
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.ima1 {
+    width: 250px;
+    height: 250px;
+}
+
+.ima2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50%;
+}
+
+.linea {
+    width: 5px;
+}
+
+footer {
+    background-color: rgb(92, 252, 198);
+    margin-bottom: 0em;
+}
+
+.titulo2 {
+    text-align: center;
+    margin-top: 20%;
+    color: white
+}
+
+.titulo3 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+table {
+    width: 1300px;
+    height: 1800px;
+    display: inline;
+}
+
+.derecha2 {
+    text-align: right;
+}
+
+.izquierda2 {
+    text-align: left;
+}
+
+.boton2 {
+    color: black;
+    border: 2px solid black;
+    padding: 1%;
 }
