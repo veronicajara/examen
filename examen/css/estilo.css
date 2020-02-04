@@ -1,0 +1,277 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: rgb(92, 252, 198);
+}
+
+.logo {
+    background-color: rgb(92, 252, 198);
+    text-align: left;
+}
+
+.banner {
+    width: 100%;
+    background-color: rgb (92, 252, 198);
+    height: 500px;
+}
+
+.direccion {
+    background-color: rgb(92, 252, 198);
+    width: 90%;
+    padding: 32px 64px;
+    margin: auto;
+}
+
+.derecha {
+    top: 40px;
+    text-align: right;
+    color: white;
+    font-size: 150%;
+}
+
+.centro {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+.social {
+    float: center;
+    display: inline-flex;
+    width: 20px;
+    top: 40px;
+    margin-left: 80%;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
+.icono2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+
+.cont1 {
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.ima1 {
+    width: 250px;
+    height: 250px;
+}
+
+.ima2 {
+    width: 250px;
+    height: 250px;
+    margin-left: 50%;
+}
+
+.linea {
+    width: 5px;
+}
+
+footer {
+    background-color: rgb(92, 252, 198);
+    margin-bottom: 0em;
+}
+
+.titulo2 {
+    text-align: center;
+    margin-top: 20%;
+    color: white
+}
+
+.titulo3 {
+    text-align: center;
+    margin-top: 10%;
+    color: black;
+    padding: 50px;
+}
+
+table {
+    width: 1300px;
+    height: 1800px;
+    display: inline;
+}
+
+.derecha2 {
+    text-align: right;
+}
+
+.izquierda2 {
+    text-align: left;
+}
+
+.boton2 {
+    color: black;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: white;
+}
+
+
+/* header */
+
+.header {
+    background-color: rgb(92, 252, 198);
+    box-shadow: 1px 1px 4px 0 rgb(92, 252, 198);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(92, 252, 198);
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid rgb(92, 252, 198);
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: #000;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked~.menu {
+    max-height: 240px;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked~.menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+}
+
+.galeria {
+    background-color: rgb(92, 252, 198);
+}
