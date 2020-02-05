@@ -11,13 +11,25 @@ header {
     background-color: rgb(92, 252, 198);
     text-align: left;
 }
-
+.contenedorbanner{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
 .banner {
     width: 100%;
     background-color: rgb (92, 252, 198);
     height: 500px;
 }
 
+.frase{
+    color: black;    
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    font-family: Cambria;
+}
 .direccion {
     background-color: rgb(92, 252, 198);
     width: 90%;
